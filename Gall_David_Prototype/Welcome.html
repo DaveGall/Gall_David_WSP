@@ -11,6 +11,70 @@
 </head>
 <body>
 <div class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="nav navbar-nav navbar-left">
+            <img src="images/Logo_Left_03.png" alt="Logo">
+        </div>
+        <ul id="home" class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a> </li>
+            <li><a href="Favorites.html">Favorites</a> </li>
+            <li><a href="#">Cart</a> </li>
+        </ul>
+        <ul id="logIn" class="nav navbar-nav">
+            <li><a href="Login.html">Log In</a> </li>
+            <li><a href="Signup.html">Sign Up</a> </li>
+        </ul>
+        <form id="searchForm" class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </nav>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h1>Advanced Search</h1>
+            <ul>
+                <li><a href="#">Computer Brand</a> </li>
+                <li><a href="#">Memory/Storage</a> </li>
+                <li><a href="#">Screen Size</a> </li>
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <h1>Computer Search</h1>
+            <form role="form">
+                <div class="form-group">
+                    <label for="search">Start Search Here</label>
+                    <input type="text" class="form-control" id="search" placeholder="Type Search Here">
+                </div>
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <label id="price">Price</label>
+                        <label for="from"><span class="small">From:</span> </label>
+                        <input type="text" id="from" placeholder="From">
+                        <label id="toPrice" for="to"><span class="small">To:</span> </label>
+                        <input type="text" id="to" placeholder="To">
+                    </div>
+                </form>
+                <div class="form-group">
+                    <label for="zipCode">Postal Code</label>
+                    <input type="text" id="zipCode" placeholder="ZipCode">
+
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Laptop
+                    </label><br>
+                    <label>
+                        <input type="checkbox"> Desktop
+                    </label><br>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
 
 </div>
 
