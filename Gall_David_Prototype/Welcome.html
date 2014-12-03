@@ -34,28 +34,49 @@
     </nav>
 
     <div class="row">
-        <div class="col-md-4">
-            <h1>Advanced Search</h1>
+        <div id="row1" class="col-md-3">
+            <h1 class="text-center">Advanced Search</h1>
             <ul>
                 <li><a href="#">Computer Brand</a> </li>
                 <li><a href="#">Memory/Storage</a> </li>
                 <li><a href="#">Screen Size</a> </li>
             </ul>
         </div>
-        <div class="col-md-8">
-            <h1>Computer Search</h1>
+        <div id="row2" class="col-md-5">
+            <h1 class="text-center">Computer Search</h1>
             <form role="form">
-                <div class="form-group">
+                <div class="form-group row">
+                    <div class="col-xs-6">
                     <label for="search">Start Search Here</label>
                     <input type="text" class="form-control" id="search" placeholder="Type Search Here">
                 </div>
+                </div>
                 <form class="form-inline" role="form">
-                    <div class="form-group">
-                        <label id="price">Price</label>
-                        <label for="from"><span class="small">From:</span> </label>
-                        <input type="text" id="from" placeholder="From">
-                        <label id="toPrice" for="to"><span class="small">To:</span> </label>
-                        <input type="text" id="to" placeholder="To">
+                    <div class="form-group row">
+                        <div class="col-xs-2">
+                            <label>Price</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <label for="from"><span class="small">From:</span> </label>
+                            <select class="form-control" id="from">
+                                <option>$0</option>
+                                <option>$100</option>
+                                <option>$200</option>
+                                <option>$300</option>
+                                <option>$400</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-3">
+                            <label for="to"><span class="small">To:</span> </label>
+
+                            <select class="form-control" id="to">
+                                <option>$500</option>
+                                <option>$1,000</option>
+                                <option>$1,500</option>
+                                <option>$2,000</option>
+                                <option>$2,500+</option>
+                            </select>
+                        </div>
                     </div>
                 </form>
                 <div class="form-group">
@@ -71,8 +92,22 @@
                         <input type="checkbox"> Desktop
                     </label><br>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-primary right">Search</button>
             </form>
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-center">Become A Member</h1>
+            <p>Becoming a member is <i>free</i> and easy, plus you get some special perks. Finding
+            a computer online can be a daunting task, but we want to make it a great experience for
+            you. Knowing the best computer to buy can be a hard decision so let us help you narrow it down
+            and get the right computer for your needs. </p>
+            <ol>
+            <li>Broader search results</li>
+            <li>Ability to save a list of favorites</li>
+            <li>Special offers</li>
+            </ol>
+            <p>Start enjoying the <i>free</i> member benefits today. </p>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
         </div>
     </div>
 

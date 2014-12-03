@@ -10,11 +10,11 @@
     margin-left: 50px;
     margin-top: 10px;
 }
-#price {
-    margin-right: 10px;
+.right {
+    float: right;
 }
-#toPrice {
-    margin-left: 10px;
+#row1, #row2 {
+    border: 1px solid #000000;
 }
 
 
