@@ -13,9 +13,21 @@
 .right {
     float: right;
 }
-#row1, #row2 {
-    border: 1px solid #000000;
+.listPadding li {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+h2 {
+    background: #b2a58d;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+h1 {
+    background: #867c6a;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+
 
 
 
