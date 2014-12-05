@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Welcome To Computer Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="nav navbar-nav navbar-left">
+            <img src="images/Logo_Left_03.png" alt="Logo">
+        </div>
+        <ul id="home" class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a> </li>
+            <li><a href="Favorites.html">Favorites</a> </li>
+            <li><a href="#">Cart</a> </li>
+        </ul>
+        <ul id="logIn" class="nav navbar-nav">
+            <li><a href="Login.html">Log In</a> </li>
+            <li><a href="Signup.html">Sign Up</a> </li>
+        </ul>
+        <form id="searchForm" class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </nav>
+
+    <div class="row">
+        <div id="row1" class="col-md-3">
+            <h2 class="text-center">Advanced Search</h2>
+            <ul class="list-group listPadding">
+
+                <li class="list-group-item text-center"><a href="#">Computer Brand</a> </li>
+                <li class="list-group-item text-center"><a href="#">Memory/Storage</a> </li>
+                <li class="list-group-item text-center"><a href="#">Screen Size</a> </li>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div id="row2" class="col-md-5">
+            <h2 class="text-center">Computer Search</h2>
+            <form role="form">
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                    <label for="search">Start Search Here</label>
+                    <input type="text" class="form-control" id="search" placeholder="Type Search Here">
+                </div>
+                </div>
+                <form class="form-inline" role="form">
+                    <div class="form-group row">
+                        <div class="col-xs-2">
+                            <label>Price</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <label for="from"><span class="small">From:</span> </label>
+                            <select class="form-control" id="from">
+                                <option>$0</option>
+                                <option>$100</option>
+                                <option>$200</option>
+                                <option>$300</option>
+                                <option>$400</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-3">
+                            <label for="to"><span class="small">To:</span> </label>
+
+                            <select class="form-control" id="to">
+                                <option>$500</option>
+                                <option>$1,000</option>
+                                <option>$1,500</option>
+                                <option>$2,000</option>
+                                <option>$2,500+</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <div class="form-group">
+                    <label for="zipCode">Postal Code</label>
+                    <input type="text" id="zipCode" placeholder="ZipCode">
+
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Laptop
+                    </label><br>
+                    <label>
+                        <input type="checkbox"> Desktop
+                    </label><br>
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <h1 class="text-center">Not A Member?</h1>
+            <p>Becoming a member is <i>free</i> and easy, plus you get some special perks. Finding
+            a computer online can be a daunting task, but we want to make it a great experience for
+            you. Knowing the best computer to buy can be a hard decision so let us help you narrow it down
+            and get the right computer for your needs. </p>
+            <ol>
+            <li>Broader search results</li>
+            <li>Ability to save a list of favorites</li>
+            <li>Special offers</li>
+            </ol>
+            <p>Start enjoying the <i>free</i> member benefits today. </p>
+            <button type="submit" class="btn btn-primary right">Sign Up</button>
+        </div>
+    </div>
+    <div class="row" id="featuresRow">
+        <div class="col-md-8">
+            <h2 class="text-center">Featured Deals</h2>
+            <div class="row"><!-- Starts gallery pictures -->
+                <div class="col-md-3">
+                    <figure>
+                        <img src="images/HPEnvy_thumb.jpg">
+                        <figcaption><h5>HP Envy</h5>
+                        <p>Touch screen.<br>8GB RAM 512GB ROM<br>$1,299</p>
+                        <p><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                            <a href="#"> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </a></p></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="images/32inchiMac_thumb.jpg">
+                        <figcaption><h5>32" iMac</h5>
+                            <p>5K Display<br>16GB RAM 512GB ROM<br>$2,499</p>
+                            <p><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                                <a href="#"> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </a></p></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="images/iPad_thumb.jpg">
+                        <figcaption><h5>64GB iPad 2</h5>
+                            <p>Retina Display<br>8GB RAM 512GB ROM<br>$399</p>
+                            <p><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                                <a href="#"> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </a></p></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="images/Batpack_thumb.jpg">
+                        <figcaption><h5>Mophie Battery Pack</h5>
+                            <p>20,000mAH<br>Plenty of charge for your iPad<br>$179</p>
+                            <p><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                                <a href="#"> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </a></p></figcaption>
+                    </figure>
+                </div>
+            </div><!-- Ends gallery pictures -->
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h3 class="text-center">Social</h3>
+            <p>Here at Computer Hub we are dedicated to providing you with quality search results for all
+                your computer needs. When you search for a computer, whether it be a desktop or laptop our
+                powerful search engines scour the web to find you the best possible deals out there. Buying
+                a computer is a big choice so why not have options, you don't need to shop at just one store or
+                browse through every companies computer deals we do that for you. There is no bidding or
+            getting a product from someone sitting on there couch trying to entice you to buy a watered
+            down model. We find you the cheapest deals on the best quality products for your search. There
+            is no extra fee to purchase from us, you are actually buying it through the vendor via our app.
+            This way it is a win win for all parties, you get the best deals on computers and accessories,
+            the store still gets your business and we get the satisfaction of helping you find the best deal
+            on a computer. </p>
+            <a href="#"> <img src="images/Facebook.png" alt="facebook icon"></a>
+            <a href="#"> <img src="images/Twittericon_03.png" alt="twitter icon"></a>
+            <a href="#"> <img src="images/Linkdn_03.png" alt="linkdn icon"></a>
+            <a href="#"> <img src="images/applestore_03.png" alt="Apple Store icon"></a>
+
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+
+        <ul class="nav navbar-nav">
+            <li><a href="#">Contact<span class="sr-only">(current)</span></a> </li>
+            <li><a href="#">Legal</a> </li>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Privacy Statement</a> </li>
+            <li><a href="#">Partners</a> </li>
+            <li><a href="#">Help</a> </li>
+        </ul>
+
+
+    </nav>
+
+</div>
+
+
+<script rel="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script rel="text/javascript" src="js/jquery-ui.min.js"></script>
+<script rel="text/javascript" src="js/bootstrap.min.js"></script>
+<script rel="text/javascript" src="js/main.js"></script>
+</body>
+</html>

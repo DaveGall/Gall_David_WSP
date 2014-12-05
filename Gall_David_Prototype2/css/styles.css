@@ -1,0 +1,71 @@
+
+
+
+
+#searchForm {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#home, #logIn {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.right {
+    float: right;
+}
+.detail-member {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#featuresRow {
+    margin-top: 50px;
+}
+.listPadding li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#mainImage {
+    margin: 40px 100px;
+}
+h2, h3 {
+    background: #b2a58d;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+h1 {
+    background: #867c6a;
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+p {
+    text-indent: 8px;
+}
+#filters {
+    margin-bottom: 40px;
+}
+.even {
+    background: #31b0d5;
+}
+.center {
+    margin-top: 10px;
+}
+.navbar {
+    background: #31b0d5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
