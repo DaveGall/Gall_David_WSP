@@ -17,7 +17,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+#featuresRow {
+    margin-top: 50px;
+}
 .listPadding li {
     padding-top: 30px;
     padding-bottom: 30px;
