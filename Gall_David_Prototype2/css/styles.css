@@ -1,33 +1,5 @@
+/* Main page stylings */
 
-
-
-
-#searchForm {
-    margin-right: 100px;
-    margin-top: 20px;
-}
-#home, #logIn {
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-.right {
-    float: right;
-}
-.detail-member {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#featuresRow {
-    margin-top: 50px;
-}
-.listPadding li {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#mainImage {
-    margin: 40px 100px;
-}
 h2, h3 {
     background: #b2a58d;
     color: #ffffff;
@@ -41,18 +13,75 @@ h1 {
 p {
     text-indent: 8px;
 }
+.right {
+    float: right;
+}
+.navbar {
+    background: #cad4e0;
+}
+#home, #logIn {  /* Header styling */
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#searchForm {  /* header styling */
+     margin-right: 100px;
+     margin-top: 20px;
+ }
+/* End main page styling */
+
+/* Start Welcome page styling */
+
+#featuresRow {
+    margin-top: 50px;
+}
+.listPadding li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* End Welcome page styling */
+
+/* Start results page styling */
 #filters {
     margin-bottom: 40px;
 }
 .even {
-    background: #31b0d5;
+    background: #cad4e0;
+}
+.odd {
+    background: #7b93b2;
 }
 .center {
-    margin-top: 10px;
+     margin-top: 10px;
+ }
+/* End results page styling */
+
+
+/* Start Detail page styling */
+#mainImage {
+    margin: 40px 100px;
 }
-.navbar {
-    background: #31b0d5;
+.customerService {
+    margin-left: 50px;
 }
+.detail-location {
+    margin-bottom: 40px;
+}
+/* End Detail page styling */
+
+.detail-member {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
