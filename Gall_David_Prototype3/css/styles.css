@@ -88,6 +88,13 @@ p {
 .center {
      margin-top: 10px;
  }
+strong {
+    letter-spacing: 1px;
+}
+.filterGroup li {
+    text-align: center;
+}
+
 
 /* End results page styling */
 
