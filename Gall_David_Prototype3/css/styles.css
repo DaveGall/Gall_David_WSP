@@ -1,21 +1,23 @@
-/* Main page stylings */
+/* Main page stylings, David Gall*/
 
 
 
 .container-fluid {
-    background: #fff5e3;
+    background-image: radial-gradient(#0a00e9, #000000);
+    /*background: #fff5e3;*/
 }
 
 .imgBox {
     width: 100px;
     height: 100px;
-    background-image: repeating-radial-gradient(#867c6a, #cad4e0 5px, #cad4e0 10px);
+    background-image: repeating-radial-gradient(#3fb6ff, #0a00e9 5px, #0a00e9 10px);
+    /*background-image: repeating-radial-gradient(#867c6a, #cad4e0 5px, #cad4e0 10px);*/
 }
 .imgBox img {
     margin: 3px 14px 14px -10px;
 }
 .dropdown {
-    margin: 40px;
+    margin: 40px 40px 20px 40px;
     float: left;
 }
 .navLogin {
@@ -36,6 +38,7 @@ h1 {
 }
 p {
     text-indent: 8px;
+    color: #ffffff;
 }
 label {
     letter-spacing: 1px;
@@ -44,16 +47,30 @@ label {
     float: right;
 }
 .navbar {
-    background: #cad4e0;
+    background-image: radial-gradient(#3fb6ff, #0a00e9);
+
 }
 #home, #logIn {  /* Header styling */
     margin-left: 50px;
     margin-top: 10px;
 }
+#logIn a, #footerNav a {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    border: none;
+}
+
 #searchForm {  /* header styling */
      margin-right: 100px;
      margin-top: 20px;
  }
+
+#logIn .logInBlack a, #logIn .signUpBlack a {
+    color: #000000;
+}
 
 /* End main page styling */
 
@@ -63,7 +80,7 @@ label {
     margin-top: 50px;
 }
 .listPadding, .locationPadding {
-    box-shadow: 3px 3px 2px #b2a58d;
+    box-shadow: 3px 3px 2px #0a00e9;
 }
 .listPadding li {
     padding-top: 30px;
@@ -84,6 +101,10 @@ label {
     background-image: url(../images/images/Logo-Protoype2_03.png);
     background-position: center;
 }
+h5, label, #whiteList li, h4 {
+    color: #ffffff;
+}
+
 
 
 
@@ -107,6 +128,9 @@ strong {
 }
 .filterGroup li {
     text-align: center;
+}
+#resultsWhite h4, #resultsWhite p {
+    color: #000000;
 }
 
 
@@ -134,11 +158,22 @@ strong {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.productDetails {
+    font-size: 2em;
+}
+.panelColor {
+    margin-top: 20px;
+}
+
 
 /* Start Favorites Page styling */
 
 .black {
-    border-color: #000000;
+    border-color: #ffffff;
+}
+
+.whiteHeart {
+    color: #ffffff;
 }
 
 /* End Favorites page styling */
@@ -148,7 +183,8 @@ strong {
 /* Start styling for Log In Page */
 
 .blueBackground {
-    background-color: #2e90ff;
+    background-image: radial-gradient(#3fb6ff, #0a00e9);
+    /*background-color: #2e90ff;*/
 }
 
 .background {
@@ -200,6 +236,17 @@ strong {
     #searchForm {
         margin-right: 2px;
 
+    }
+}
+@media (max-width: 480px) {
+    #mainImage {
+        margin: 5px;
+    }
+    .customerService {
+        margin: 5px;
+    }
+    .smallHeader {
+        font-size: 2em;
     }
 }
 

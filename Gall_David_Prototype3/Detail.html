@@ -22,7 +22,7 @@
                 <span class="caret"></span>
             </button>
             <ul id="home" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                <li ><a href="#">Home</a> </li>
+                <li ><a href="Welcome.html">Home</a> </li>
                 <li><a href="Favorites.html">Favorites</a> </li>
                 <li><a href="Results.html">Results</a> </li>
                 <li class="active"><a href="Detail.html">Detail</a> </li>
@@ -92,31 +92,34 @@
         will be a snap with this much speed you will be wondering what to do with your extra
         time. This computer also comes with one year of Apple Care, Keynote, Pages and much more. </p>
         <button type="button" class="btn btn-primary">Read More</button>
-        <h2 class="text-center">Product Details</h2>
-        <table class="table table-striped">
-            <tbody>
-            <tr class="odd">
-            <td>16GB 1600MHz memory</td>
-            <td>2.2GHz quad-core Intel i7</td>
-            <td>Pages</td>
-            </tr>
-            <tr class="even">
-                <td>15 inch retina display</td>
-                <td>Microsoft Office</td>
-                <td>Intel Iris Pro Graphics</td>
-            </tr>
-            <tr class="odd">
-                <td>1 year Apple Care</td>
-                <td>FacTime</td>
-                <td>Built in battery (8 hour)</td>
-            </tr>
-            <tr class="even">
-                <td>512GB Storage</td>
-                <td>Keynote</td>
-                <td>Turbo Boost up to 3.4GHz</td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="panel panel-default panelColor">
+            <div class="panel-heading text-center productDetails">Product Details</div>
+            <div class="panel-body"></div>
+            <table class="table table-striped">
+                <tbody>
+                <tr class="odd">
+                <td>16GB 1600MHz memory</td>
+                <td>2.2GHz quad-core Intel i7</td>
+                <td>Pages</td>
+                </tr>
+                <tr class="even">
+                    <td>15 inch retina display</td>
+                    <td>Microsoft Office</td>
+                    <td>Intel Iris Pro Graphics</td>
+                </tr>
+                <tr class="odd">
+                    <td>1 year Apple Care</td>
+                    <td>FacTime</td>
+                    <td>Built in battery (8 hour)</td>
+                </tr>
+                <tr class="even">
+                    <td>512GB Storage</td>
+                    <td>Keynote</td>
+                    <td>Turbo Boost up to 3.4GHz</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <h2 class="text-center">Related Products</h2>
         <div class="row"><!-- Starts gallery pictures -->
             <div class="col-md-3 col-xs-6">
@@ -194,7 +197,7 @@
 
     <nav class="navbar navbar-default" role="navigation"><!-- Footer section -->
 
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" id="footerNav">
             <li><a href="#">Contact<span class="sr-only">(current)</span></a> </li>
             <li><a href="#">Legal</a> </li>
             <li><a href="#">About</a> </li>
