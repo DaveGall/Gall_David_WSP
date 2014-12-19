@@ -11,7 +11,7 @@
     width: 100px;
     height: 100px;
     background-image: repeating-radial-gradient(#3fb6ff, #0a00e9 5px, #0a00e9 10px);
-    /*background-image: repeating-radial-gradient(#867c6a, #cad4e0 5px, #cad4e0 10px);*/
+
 }
 .imgBox img {
     margin: 3px 14px 14px -10px;
