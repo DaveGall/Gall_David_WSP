@@ -25,13 +25,13 @@
     margin-top: 20px;
 }
 h2, h3 {
-    background: #b2a58d;
+    background-image: linear-gradient(#0a00e9, #000000);
     color: #ffffff;
     font-family: 'Libre Baskerville', serif;
     border-radius: 30px 0 30px  0;
 }
 h1 {
-    background: #867c6a;
+    background: #3fb6ff;
     color: #ffffff;
     font-family: 'Libre Baskerville', serif;
     border-radius: 30px 0 30px 0;
