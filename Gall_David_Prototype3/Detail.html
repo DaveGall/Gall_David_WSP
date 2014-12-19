@@ -11,20 +11,29 @@
 </head>
 <body>
 <div class="container-fluid"><!-- Container for the site -->
-    <nav class="navbar navbar-default" role="navigation"><!-- Header section -->
+    <nav class="navbar navbar-default" role="navigation"><!-- Header Nav section Starts -->
+
         <div class="nav navbar-nav navbar-left imgBox">
-            <a href="Welcome.html"> <img src="images/images/Logo_Prototype3_03.png" alt="Logo"></a>
+            <a href="Welcome.html"><img src="images/images/Logo_Prototype3_03.png" alt="Logo" class="logoImage"></a>
         </div>
-        <ul id="home" class="nav navbar-nav">
-            <li><a href="Welcome.html">Home</a> </li>
-            <li><a href="Favorites.html">Favorites</a> </li>
-            <li><a href="Results.html">Results</a> </li>
-            <li class="active"><a href="Detail.html">Detail</a> </li>
-        </ul>
-        <ul id="logIn" class="nav navbar-nav">
-            <li><a href="Login.html">Log In</a> </li>
-            <li><a href="Signup.html">Sign Up</a> </li>
-        </ul>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                Menu
+                <span class="caret"></span>
+            </button>
+            <ul id="home" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li ><a href="#">Home</a> </li>
+                <li><a href="Favorites.html">Favorites</a> </li>
+                <li><a href="Results.html">Results</a> </li>
+                <li class="active"><a href="Detail.html">Detail</a> </li>
+            </ul>
+        </div>
+        <div class="navLogin">
+            <ul id="logIn" class="nav navbar-nav">
+                <li><a href="Login.html">Log In</a> </li>
+                <li><a href="Signup.html">Sign Up</a> </li>
+            </ul>
+        </div>
         <form id="searchForm" class="navbar-form navbar-right" role="search">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
@@ -32,17 +41,17 @@
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
 
-    </nav>
+    </nav><!-- Header nav section ends -->
 <div class="row">
-    <div class="col-md-8 col-sm-6"><!-- Left side displays start -->
+    <div class="col-md-8 col-sm-12"><!-- Left side displays start -->
         <h2 class="text-center">15 inch MacBook Pro:  $1,799</h2>
 
         <div class="row">
-            <div class="col-md-8 main-photo">
+            <div class="col-md-8 col-sm-12 main-photo">
 
                 <img src="images/400x500Mac.jpg" alt="main computer image" class="img-thumbnail img-responsive" id="mainImage">
             </div>
-            <div class="col-md-4 gallery">
+            <div class="col-md-4 col-sm-12 gallery">
                 <h3 class="text-center">Gallery</h3>
                 <div class="row">
                     <div class="col-md-6 col-xs-6">
@@ -148,7 +157,7 @@
             </div>
         </div><!-- Ends gallery pictures -->
     </div> <!-- End Left side display -->
-    <div class="col-md-4 detail-location"><!-- Start right side display -->
+    <div class="col-md-4 col-xs-12 detail-location"><!-- Start right side display -->
         <h2 class="text-center">Location</h2>
         <div class="row">
             <div class="col-md-4">
@@ -159,7 +168,7 @@
                 </ul>
             </div>
             <div class="col-md-3"></div>
-            <div class="col-md-5">
+            <div class="col-md-5 col-xs-12">
                 <img src="images/Map_thumb125x125.jpg" alt="Map of stores location"/>
             </div>
         </div>

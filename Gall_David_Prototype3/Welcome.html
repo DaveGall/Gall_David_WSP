@@ -13,19 +13,28 @@
 <body>
 <div class="container-fluid">
     <nav class="navbar navbar-default" role="navigation"><!-- Header Nav section Starts -->
+
         <div class="nav navbar-nav navbar-left imgBox">
-            <img src="images/images/Logo_Prototype3_03.png" alt="Logo">
+            <img src="images/images/Logo_Prototype3_03.png" alt="Logo" class="logoImage">
         </div>
-        <ul id="home" class="nav navbar-nav">
+        <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Menu
+            <span class="caret"></span>
+        </button>
+        <ul id="home" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
             <li class="active"><a href="#">Home</a> </li>
             <li><a href="Favorites.html">Favorites</a> </li>
             <li><a href="Results.html">Results</a> </li>
             <li><a href="Detail.html">Detail</a> </li>
         </ul>
+        </div>
+        <div class="navLogin">
         <ul id="logIn" class="nav navbar-nav">
             <li><a href="Login.html">Log In</a> </li>
             <li><a href="Signup.html">Sign Up</a> </li>
         </ul>
+        </div>
         <form id="searchForm" class="navbar-form navbar-right" role="search">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">

@@ -14,6 +14,14 @@
 .imgBox img {
     margin: 3px 14px 14px -10px;
 }
+.dropdown {
+    margin: 40px;
+    float: left;
+}
+.navLogin {
+    float: left;
+    margin-top: 20px;
+}
 h2, h3 {
     background: #b2a58d;
     color: #ffffff;
@@ -28,6 +36,9 @@ h1 {
 }
 p {
     text-indent: 8px;
+}
+label {
+    letter-spacing: 1px;
 }
 .right {
     float: right;
@@ -69,7 +80,10 @@ p {
     color: #fff5e3;
     font-size: 1.5em;
 }
-
+.bgColor {
+    background-image: url(../images/images/Logo-Protoype2_03.png);
+    background-position: center;
+}
 
 
 
@@ -133,6 +147,10 @@ strong {
 
 /* Start styling for Log In Page */
 
+.blueBackground {
+    background-color: #2e90ff;
+}
+
 .background {
     background-image: url(../images/images/Logo-Protoype2_03.png);
     background-repeat: no-repeat;
@@ -141,14 +159,49 @@ strong {
     width: 80%;
     height: 880px;
 }
-label {
+.whiteLabel {
     color: #ffffff;
     letter-spacing: 1px;
 }
 
 /* End styling for Log In page */
 
+@media (min-width: 620px) and (max-width: 768px){
 
+    .navLogin {
+        margin-left: 10px;
+    }
+    .dropdown {
+        margin: 40px 10px 10px 10px;
+    }
+    #searchForm {  /* header styling */
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .customerService {
+        margin: 10px 190px;
+    }
+    #mainImage {
+        margin: 40px 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imgBox {
+        margin: 10px 90px;
+    }
+
+    .navLogin {
+        margin-left: 2px;
+    }
+    .dropdown {
+        margin-left: 2px;
+    }
+    #searchForm {
+        margin-right: 2px;
+
+    }
+}
 
 
 
