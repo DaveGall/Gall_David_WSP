@@ -4,7 +4,18 @@
 
 .container-fluid {
     background-image: radial-gradient(#0a00e9, #000000);
-    /*background: #fff5e3;*/
+
+}
+.borderLeft, .gallery {
+    border-left: 1px solid #ffffff;
+}
+.borderRight {
+    border: 2px inset #fff5e3;
+    border-radius: 20px;
+    background: #6673f1;
+}
+.borderTrueRight {
+    border-right: 1px dashed #ffffff;
 }
 
 .imgBox {
@@ -129,6 +140,7 @@ strong {
 .filterGroup li {
     text-align: center;
 }
+
 #resultsWhite h4, #resultsWhite p {
     color: #000000;
 }
@@ -147,6 +159,10 @@ strong {
 }
 .detail-location {
     margin-bottom: 40px;
+    border-right: 1px solid #fff5e3;
+    border-left: 1px solid #fff5e3;
+    background-image: linear-gradient(#0a00e9, #000000);
+    border-radius: 20px;
 }
 .prodBG {
     background: #cad4e0;
@@ -184,9 +200,12 @@ strong {
 
 .blueBackground {
     background-image: radial-gradient(#3fb6ff, #0a00e9);
-    /*background-color: #2e90ff;*/
-}
 
+}
+.logInBackground {
+    background-image: linear-gradient(to right, #0a00e9, #3fb6ff);
+    border-radius: 20px;
+}
 .background {
     background-image: url(../images/images/Logo-Protoype2_03.png);
     background-repeat: no-repeat;
