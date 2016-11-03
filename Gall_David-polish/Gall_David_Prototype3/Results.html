@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-default" role="navigation"><!-- Header Nav Section start -->
+    <div class="nav navbar-nav navbar-left imgBox">
+        <a href="Welcome.html"> <img src="images/images/Logo_Prototype3_03.png" alt="Logo"></a>
+    </div>
+    <ul id="home" class="nav navbar-nav">
+        <li><a href="Welcome.html">Home</a> </li>
+        <li><a href="Favorites.html">Favorites</a> </li>
+        <li class="active"><a href="Results.html">Results</a> </li>
+        <li><a href="Detail.html">Detail</a> </li>
+    </ul>
+    <ul id="logIn" class="nav navbar-nav">
+        <li><a href="Login.html">Log In</a> </li>
+        <li><a href="Signup.html">Sign Up</a> </li>
+    </ul>
+    <form id="searchForm" class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+</nav><!-- Header Nav Section end -->
+<div class="row" id="filters"> <!-- Results/Filters -->
+    <div class="col-md-3"><!-- Start Filters -->
+        <h3 class="text-center">Filters</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-group filterGroup">
+                    <li class="list-group-item color"><strong>Brand:</strong>   Apple</li>
+                    <li class="list-group-item color"><strong>Price:</strong>   $200-$2,000</li>
+                    <li class="list-group-item color"><strong>Size:</strong>    13-15 inch</li>
+                    <li class="list-group-item color"><strong>Memory:</strong>  8GB-16GB</li>
+                    <li class="list-group-item color"><strong>Storage:</strong> 128GB-512GB</li>
+                    <li class="list-group-item color"><strong>Laptop:</strong>  New</li>
+                </ul>
+            </div>
+
+        </div>
+        <h3 class="text-center">Change Filters</h3>
+        <form role="form" class="form-inline">
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="brand">Brand: </label>
+                </div>
+                <div class="col-md-6 brandPadding">
+                    <select class="form-control" id="brand">
+                        <option>Apple</option>
+                        <option>HP</option>
+                        <option>Asus</option>
+                        <option>Sony</option>
+                        <option>Dell</option>
+                    </select>
+                </div>
+            </div><br>
+            <hr class="black">
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="price">Price: </label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="price">
+                        <option>$0 - $499</option>
+                        <option>$500 - $999</option>
+                        <option>$1,000 - $1,499</option>
+                        <option>$1,500 - $1,999</option>
+                        <option>$2,000+</option>
+                    </select>
+                </div>
+            </div><br>
+            <hr class="black">
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="size">Size: </label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="size">
+                        <option>13 inch</option>
+                        <option>15 inch</option>
+                        <option>17 inch</option>
+                        <option>23 inch</option>
+                        <option>24+ inches</option>
+                    </select>
+                </div>
+            </div><br>
+            <hr class="black">
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="memory">Memory: </label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="memory">
+                        <option>4GB</option>
+                        <option>6GB</option>
+                        <option>8GB</option>
+                        <option>12GB</option>
+                        <option>16GB</option>
+                    </select>
+                </div>
+            </div><br>
+            <hr class="black">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Laptop
+                </label><br>
+                <hr>
+                <label>
+                    <input type="checkbox"> Desktop
+                </label><br>
+            </div>
+            <hr class="black">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div><!-- End Filters -->
+    <div class="col-md-1"></div> <!-- Space -->
+    <div class="col-md-8"><!-- Start Results Section -->
+        <h2 class="text-center">Premium Results</h2>
+        <div class="row even">
+            <div class="col-md-2">
+                <img src="images/MacBook_Air_Mid_2012_thumb.jpg" alt="Macbook air image" class="center">
+            </div>
+            <div class="col-md-6">
+                <h4>15 inch MacBook Pro</h4>
+                <p><i>8GB Memory 256GB Storage</i></p>
+                <p class="small">Great computer, portable, long battery life and all the tools you need
+                to succeed in school.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <h4>$1,499</h4>
+                <p>New</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            </div>
+        </div>
+        <hr class="black">
+        <div class="row odd">
+            <div class="col-md-2">
+                <img src="images/15Mac_thumb.jpg" alt="15 inch macbook pro" class="center">
+            </div>
+            <div class="col-md-6">
+                <h4>15 inch MacBook Pro</h4>
+                <p><i>16GB Memory 512GB Storage</i></p>
+                <p class="small">This computer is great for gaming and media. It can handle a lot of
+                data and can keep up with the demand of video and image editing. </p>
+            </div>
+            <div class="col-md-4 text-right">
+                <h4>$1,799</h4>
+                <p>New</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            </div>
+        </div>
+        <h2 class="text-center">Standard Results</h2>
+        <div class="row even">
+            <div class="col-md-2">
+                <img src="images/Student.jpg" alt="Female student working on a macbook pro" class="center">
+            </div>
+            <div class="col-md-6">
+                <h4>13 inch MacBook Pro</h4>
+                <p><i>8GB Memory 128GB Storage</i></p>
+                <p class="small">Compact and powerful. Easy to take notes during a lecture or do research at your desk.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <h4>$1,299</h4>
+                <p>New</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            </div>
+        </div>
+        <hr class="black">
+        <div class="row odd">
+            <div class="col-md-2">
+                <img src="images/MacB_thumb.jpg" alt="15 inch macbook pro" class="center">
+            </div>
+            <div class="col-md-6">
+                <h4>15 inch MacBook Pro</h4>
+                <p><i>16GB Memory 512GB Storage</i></p>
+                <p class="small">This computer has the power and tools to take you into the next century.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <h4>$1,499</h4>
+                <p>New</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            </div>
+        </div>
+       <hr class="black">
+        <div class="row even">
+            <div class="col-md-2">
+                <img src="images/13Mac_thumb.jpg" alt="13 inch MacBook Pro" class="center">
+            </div>
+            <div class="col-md-6">
+                <h4>13 inch MacBook Pro</h4>
+                <p><i>8GB Memory 128GB Storage</i></p>
+                <p class="small">Great computer, portable, long battery life and all the tools you need
+                    to succeed in school.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <h4>$1,299</h4>
+                <p>New</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div><!-- End Results Section -->
+</div><!-- End Results/Filters Row -->
+
+    <nav class="navbar navbar-default" role="navigation"><!-- Footer section Begins -->
+
+        <ul class="nav navbar-nav">
+            <li><a href="#">Contact<span class="sr-only">(current)</span></a> </li>
+            <li><a href="#">Legal</a> </li>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Privacy Statement</a> </li>
+            <li><a href="#">Partners</a> </li>
+            <li><a href="#">Help</a> </li>
+        </ul>
+
+
+    </nav><!-- Footer section ends -->
+</div>
+
+<script rel="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script rel="text/javascript" src="js/jquery-ui.min.js"></script>
+<script rel="text/javascript" src="js/bootstrap.min.js"></script>
+<script rel="text/javascript" src="js/main.js"></script>
+</body>
+</html>
